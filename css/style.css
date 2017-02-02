@@ -6,11 +6,11 @@ body {
   color: #003399;
   background-color: #99CCCC;
 }
-/*grey bg behind links at top of page*/
+/*grey behind links at top/btm of page*/
 header {
 	background: #CCCCCC;
 }
-/*hyperlink color at top of page*/
+/*hyperlink color at top/btm of page*/
 a:link, a:visited {
   color:#003399;
 }
@@ -18,30 +18,40 @@ a:link, a:visited {
 a:hover, a:active{
   color:#FF9933;
 }
-/*header*/
+/*grey behind links at top/btm of page*/
+footer{
+  background: #CCCCCC;
+}
 .nav_list {
   list-style: none;
   display: flex;
   margin: 0;
   padding: 0;
 }
-/*header elements */
+/*nav elements */
 .nav_list_item {
   margin: 1rem;
   font-weight: bold;
 }
 /*core page elements*/
-.sectionHero {
+.container {
   margin-right: 10rem;
   margin-left: 10rem;
   text-align: right;
 }
-
-.hero_text {
+/*Richard W. Rouse */
+#name {
 	font-size: 6rem;
-	color: #fffae4;text-shadow: 0.4rem 0.4rem 0.4rem #234;
+	color: #fffae4;
+  text-shadow: 0.4rem 0.4rem 0.4rem #234;
 }
-
-.hero-subtext {
+/*Developer*/
+#title {
   font-size: 4rem;
+}
+/*pic of me*/
+#me {
+  max-width: 20%;
+  border-radius: 75px;
+  padding: 20px;
 }
