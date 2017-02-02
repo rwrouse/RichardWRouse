@@ -43,20 +43,20 @@ a:hover, a:active{
     margin: 0px 0px 10px 0px;
     border: 1px solid #003399;
     padding: 20px;
-    background: #fffae4;
+    background: white;
     box-shadow: inset 0px 0px 15px #FFE5E5;
     -moz-box-shadow: inset 0px 0px 15px #FFE5E5;
     -webkit-box-shadow: inset 0px 0px 15px #FFE5E5;
 }
 .cForm fieldset legend{
     color: #003399;
-    border-top: 1px solid #FFD2D2;
-    border-left: 1px solid #FFD2D2;
-    border-right: 1px solid #FFD2D2;
+    border-top: 1px solid #003399;
+    border-left: 1px solid #003399;
+    border-right: 1px solid #003399;
     border-radius: 5px 5px 0px 0px;
     -webkit-border-radius: 5px 5px 0px 0px;
     -moz-border-radius: 5px 5px 0px 0px;
-    background: #fffae4;
+    background: white;
     padding: 0px 8px 3px 8px;
     box-shadow: -0px -1px 2px #C9C9C9;
     -moz-box-shadow:-0px -1px 2px #C9C9C9;
@@ -88,7 +88,7 @@ a:hover, a:active{
     box-shadow: inset 1px 1px 4px #C9C9C9;
     -moz-box-shadow: inset 1px 1px 4px #C9C9C9;
     -webkit-box-shadow: inset 1px 1px 4px #C9C9C9;
-    background: #FFEFF6;
+    background: white;
     width:50%;
 }
 .cForm input[type=submit],
@@ -108,7 +108,7 @@ a:hover, a:active{
 }
 
 .required {
-  color: blue;
+  color: white;
   font-weight:bold;
 }
 /*grey behind links at top/btm of page*/
